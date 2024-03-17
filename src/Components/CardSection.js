@@ -4,7 +4,7 @@ const CardSection = ({ setDevice }) => {
     <div className="min-h-screen w-[60%] flex gap-6 sm:gap-4  md:flex-row flex-wrap items-center   ">
       <div
         onClick={() => setDevice("fan")}
-        className=" bg-[#12140073] w-[100%] h-[12rem] md:w-[calc(50%-1rem)] sm:h-[16rem] md:mb-6 p-6 flex flex-col items-start justify-start gap-3 font-semibold border-2 border-[#DCDCE7] hover:scale-105 transition-transform rounded-2xl cursor-pointer"
+        className=" bg-[#12140073] w-[100%] h-[14rem] md:w-[calc(50%-1rem)] sm:h-[16rem] md:mb-6 p-6 flex flex-col items-start justify-start gap-3 font-semibold border-2 border-[#DCDCE7] hover:scale-105 transition-transform rounded-2xl cursor-pointer"
       >
         <h2 className="text-white text-3xl  sm:text-4xl lg:text-5xl">Fan</h2>
         <p className="text-[#f1f1f1] text-base sm:text-lg lg:text-xl">
@@ -29,7 +29,7 @@ const CardSection = ({ setDevice }) => {
 
       <div
         onClick={() => setDevice("led")}
-        className="bg-[#12140073] w-[100%] h-[12rem] md:w-[calc(50%-1rem)] sm:h-[16rem] md:mb-6 p-6 flex flex-col items-start justify-start gap-3 font-semibold border-2 border-[#DCDCE7] hover:scale-105 transition-transform rounded-2xl cursor-pointer"
+        className="bg-[#12140073] w-[100%] h-[14rem] md:w-[calc(50%-1rem)] sm:h-[16rem] md:mb-6 p-6 flex flex-col items-start justify-start gap-3 font-semibold border-2 border-[#DCDCE7] hover:scale-105 transition-transform rounded-2xl cursor-pointer"
       >
         <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl">Led</h2>
         <p className="text-[#f1f1f1] text-base sm:text-lg lg:text-xl">

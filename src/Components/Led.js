@@ -33,7 +33,7 @@ const LedControls = () => {
 
   return (
     <>
-      <div className=" bg-[#12140073] flex flex-col border-2  w-[100%] md:w-[30%] h-[50vh] md:h-[80vh] font-bold  justify-center items-center space-y-6 rounded-3xl">
+      <div className=" bg-[#12140073] flex flex-col border-2  w-[100%] md:w-[30%] h-[60vh] md:h-[80vh] font-bold  justify-center items-center space-y-6 rounded-3xl">
         <div className=" items-center flex justify-center flex-col gap-4 space-y-4 text-white">
           <h1 className="text-4xl sm:text-6xl md:text-4xl">LED Controls</h1>
 
